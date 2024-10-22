@@ -17,7 +17,9 @@ docker pull docker.elastic.co/elasticsearch/elasticsearch:8.15.1
 ```
 
 ```cmd
+conda create -n rag_application python=3.9
 conda activate rag_application
+pip install -r requirements_version.txt
 ```
 
 ```cmd
