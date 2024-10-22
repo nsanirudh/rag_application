@@ -84,7 +84,7 @@ class ElasticsearchClient:
 
         print("Indexing completed.")
 
-    def search(self, query_text, top_k=5):
+    def search(self, query_text, top_k=4):
         # Generate embedding for the query
         embeddings_model = OpenAIEmbeddings(openai_api_key=Config.OPENAI_API_KEY)
         query_vector = embeddings_model.embed_query(query_text)
