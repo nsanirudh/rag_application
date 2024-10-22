@@ -1,0 +1,12 @@
+langchain
+openai
+elasticsearch
+elasticsearch-dsl
+PyPDF2
+python-docx
+nltk
+streamlit
+python-dotenv
+langchain-openai
+langchain_community
+pypdf
